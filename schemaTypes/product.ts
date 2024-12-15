@@ -72,5 +72,16 @@ export default {
       title: 'Sizes',
       of: [{type: 'string'}],
     },
+    {
+      name: 'isSoldOut',
+      type: 'boolean',
+      title: 'Is SoldOut',
+    },
+    {
+      name: 'publish',
+      type: 'boolean',
+      title: 'Publish',
+      default: true,
+    },
   ],
 }

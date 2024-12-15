@@ -1,6 +1,6 @@
 export default {
-  name: 'order',
-  title: 'Order',
+  name: 'preOrder',
+  title: 'Pre Order',
   type: 'document',
   fields: [
     {
@@ -8,7 +8,6 @@ export default {
       title: 'Order ID',
       type: 'string',
       description: 'Unique identifier for the order',
-      // Sanity doesn't support uniqueness directly, so you'd handle it outside the schema
     },
     {
       name: 'transactionId',

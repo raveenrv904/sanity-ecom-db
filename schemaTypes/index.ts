@@ -2,8 +2,6 @@ import category from './category'
 import homeBanner from './home-banner'
 import product from './product'
 import user from './user'
-import terms from './terms'
-import privacy from './privacy'
 import aboutcard from './aboutcard'
 import logo from './logo'
 import coupon from './coupon'
@@ -13,6 +11,7 @@ import address from './address'
 import contact from './contact'
 import basicInfo from './basicInfo'
 import policies from './policies'
+import preorder from './preorder'
 export const schemaTypes = [
   logo,
   basicInfo,
@@ -26,5 +25,6 @@ export const schemaTypes = [
   address,
   orderProduct,
   order,
+  preorder,
   policies,
 ]

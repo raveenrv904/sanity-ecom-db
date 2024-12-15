@@ -53,5 +53,16 @@ export default {
         },
       ],
     },
+    {
+      name: 'preOrders',
+      title: 'Pre Order Details',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'preOrder'}],
+        },
+      ],
+    },
   ],
 }
